@@ -1,0 +1,8 @@
+host_token,device_id,user,event_time_utc,technique,behavior,filename,md5,fs_blocked,label_binary
+HOST-0023,3810ea13b98a42adb0ff227fbaf6169f,USER-0801,2024-05-10T15:46:45Z,T1490,VolumeShadowSnapshotDeleted,triPOS Setup.exe,6468e92d1ad408df05df38c1192de790,false,suspicious
+HOST-0023,6e36ac138a7a426fa5d2e4a45da72961,USER-0802,2024-06-14T12:05:32Z,CST0013,Detect OnWrite Adware/PUP Hash,javaw.exe,,false,suspicious
+HOST-0023,6e36ac138a7a426fa5d2e4a45da72961,USER-0802,2024-07-19T09:06:08Z,T1562.001,FileSystemTamperFalconSensorDynamicConfiguration,explorer.exe,d264f62721590f14bc54344f48a05912,true,malicious
+HOST-0023,3810ea13b98a42adb0ff227fbaf6169f,USER-0801,2024-07-19T12:56:10Z,T1562.001,FileSystemTamperFalconSensorDynamicConfiguration,explorer.exe,d264f62721590f14bc54344f48a05912,true,suspicious
+HOST-0023,3810ea13b98a42adb0ff227fbaf6169f,USER-0801,2024-07-19T12:56:12Z,T1562.001,FileSystemTamperFalconSensorDynamicConfiguration,dllhost.exe,dfe1e4b1b8714cbe1005ee9413c2bae9,true,suspicious
+HOST-0023,3810ea13b98a42adb0ff227fbaf6169f,USER-0801,2024-07-19T12:56:26Z,T1562.001,FileSystemTamperFalconSensorDynamicConfiguration,dllhost.exe,dfe1e4b1b8714cbe1005ee9413c2bae9,true,suspicious
+HOST-0023,3810ea13b98a42adb0ff227fbaf6169f,USER-0801,2024-07-19T12:57:19Z,T1562.001,FileSystemTamperFalconSensorDynamicConfiguration,pwsh.exe,cab368ed200c5b7e3ff38bca123b6d7b,true,suspicious

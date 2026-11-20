@@ -1,0 +1,12 @@
+event_time_utc,hypothesis,source,host_user,activity,evidence,dataset_label
+2024-05-10 15:46:45,H3,Crowdstrike Falcon (EDR),3810ea13 / USER-0801,VolumeShadowSnapshotDeleted (T1490),proc=triPOS Setup.exe md5=6468e92d1ad408df05df38c1192de790 fs_blocked=false,suspicious
+2024-06-14 12:05:32,H3,Crowdstrike Falcon (EDR),6e36ac13 / USER-0802,Detect OnWrite Adware/PUP Hash (CST0013),proc=javaw.exe md5= fs_blocked=false,suspicious
+2024-07-19 09:06:08,H3,Crowdstrike Falcon (EDR),6e36ac13 / USER-0802,FileSystemTamperFalconSensorDynamicConfiguration (T1562.001),proc=explorer.exe md5=d264f62721590f14bc54344f48a05912 fs_blocked=true,malicious
+2024-07-19 12:56:10,H3,Crowdstrike Falcon (EDR),3810ea13 / USER-0801,FileSystemTamperFalconSensorDynamicConfiguration (T1562.001),proc=explorer.exe md5=d264f62721590f14bc54344f48a05912 fs_blocked=true,suspicious
+2024-07-19 12:56:12,H3,Crowdstrike Falcon (EDR),3810ea13 / USER-0801,FileSystemTamperFalconSensorDynamicConfiguration (T1562.001),proc=dllhost.exe md5=dfe1e4b1b8714cbe1005ee9413c2bae9 fs_blocked=true,suspicious
+2024-07-19 12:56:26,H3,Crowdstrike Falcon (EDR),3810ea13 / USER-0801,FileSystemTamperFalconSensorDynamicConfiguration (T1562.001),proc=dllhost.exe md5=dfe1e4b1b8714cbe1005ee9413c2bae9 fs_blocked=true,suspicious
+2024-07-19 12:57:19,H3,Crowdstrike Falcon (EDR),3810ea13 / USER-0801,FileSystemTamperFalconSensorDynamicConfiguration (T1562.001),proc=pwsh.exe md5=cab368ed200c5b7e3ff38bca123b6d7b fs_blocked=true,suspicious
+2024-07-26 11:19:14,H2,AWS VPC Flow Log,34 sources (100.64.13.10..100.64.26.98) -> 10.189.183.176,"scan burst: 2975 REJECT flows, 43 dst ports",flow start=11:19:14 end=11:24:13 UTC,mixed
+2024-07-26 13:23:44,H2,AWS VPC Flow Log,10.73.148.8 -> 10.19.72.193:135,"repeated RPC attempts (5 days): 1689 REJECT flows, 1 dst ports",flow start=13:23:44 end=00:25:18 UTC,mixed
+2024-07-29 20:35:57,H2,AWS VPC Flow Log,49 sources (100.64.26.216..100.64.27.233) -> 10.98.236.105,"distributed scan burst: 9920 REJECT flows, 102 dst ports",flow start=20:35:57 end=20:40:56 UTC,mixed
+2024-07-29 20:35:57,H2,AWS VPC Flow Log,100.64.27.187 -> 10.98.236.105,"port fan-out from the busiest source: 5218 REJECT flows, 55 dst ports",flow start=20:35:57 end=20:40:56 UTC,mixed
